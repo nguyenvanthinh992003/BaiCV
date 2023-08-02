@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table width="400" border="2" cellpadding="5" align="center">
+        <tr>
+            <td colspan ="2">ĐĂNG KÝ THÀNH VIÊN CLB YÊU NHẠC </td>
+        </tr>
+        <tr>
+            <td> Họ tên </td>
+            <td> <input type ="text" id="txtHoTen" ></td>
+        </tr>
+        <tr>
+            <td> Tên đăng nhập </td>
+            <td><input type ="text" id="txtUserName"> </td>
+        </tr>
+        <tr>
+            <td> Mật khẩu </td>
+            <td><input type ="password" id="txtpass"></td>
+        </tr>
+        <tr>
+            <td>Gõ lại mật khẩu </td>\
+            <td><input type ="password" id="txtrepass"></td>
+        </tr>
+        <tr>
+            <td>Giới tính </td>
+            <td>
+                    <input type="radio" name =" gioitinh " id="Nam"> Nam
+                    <input type="radio" name =" gioitinh " id="Nu"> Nữ
+            </td>
+        </tr>
+        <tr>
+            <td>Ngoại ngữ </td>
+                <td> 
+                    <input type="checkbox" id="chkphap">
+                    <lapel for="chxphap">Pháp </lapel>
+                    <input type="checkbox" id="chkanh">
+                    <lapel for="chxanh">Anh </lapel>
+                    <input type="checkbox" id="chkhoa">
+                    <lapel type="chkhoa">Hoa </lapel>
+                </td>
+        </tr>
+        <tr>
+            <td>Nghề nghiệp </td>
+            <td>
+                <select id ="cboNgheNghiep">
+                    <option value = "0" >Bạn làm nghề nghiệp gì </option>
+                    <option value = "1" >Học sinh - Sinh viên  </option>
+                    <option value = "2" >Giáo viên </option>
+                    <option value = "3" >Nhân viên </option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td> Hình </td>
+            <td> <input type ="file" id="fhinh" ></td>
+        </tr>
+        <tr>
+            <td>Sở thích</td>
+            <td>
+                <textarea rows="10" id="txtSoThich"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <input type="submit" id="btnDangKy" value="Đăng Ký">
+                <input type="reset" id="btnXoa" value="Submit">
+                <input type="hidden" id="NgayDangKy" value="11/11/2011">
+            </td>
+        </tr>
+        
+</body>
+</html>
